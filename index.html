@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+
 <body>
-  
+  <form id="formulario">
+    <label for="valor_venda">Valor de venda: R$</label>
+    <input type="number" name="valor_venda" step="0.01" id="valor_venda" placeholder="Digite o valor da venda"
+      required><br>
+
+    <label for="itens">Itens:</label>
+    <input type="text" name="itens" id="itens" placeholder="Digite o nome dos itens" required><br>
+
+    <label for="IRPF">Imposto IRPF: %</label>
+    <input type="number" name="IRPF" id="irpf" step="0.01" placeholder="Digite a porcentagem do imposto" required><br>
+
+    <label for="PIS">Importo PIS: %</label>
+    <input type="number" name="PIS" id="pis" step="0.01" placeholder="Digite a porcentagem do imposto" required><br>
+
+    <label for="COFINS">Imposto COFINS: %</label>
+    <input type="number" name="COFINS" id="cofins" step="0.01" placeholder="Digite a porcentagem do imposto"
+      required><br>
+
+    <label for="INSS">Imposto INSS: %</label>
+    <input type="number" name="INSS" id="inss" step="0.01" placeholder="Digite a porcentagem do imposto" required><br>
+
+    <label for="ISSQN">Imposto ISSQN: %</label>
+    <input type="number" name="ISSQN" id="issqn" step="0.01" placeholder="Digite a porcentagem do imposto" required><br>
+
+    <button type="submit">Emitir nota</button>
+
+  </form>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
