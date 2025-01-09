@@ -1,4 +1,3 @@
-/* Estilo geral do formulário */
 form {
   width: 50%;
   margin: 30px auto;
@@ -9,7 +8,6 @@ form {
   font-family: Arial, sans-serif;
 }
 
-/* Estilo dos rótulos */
 label {
   display: block;
   margin-bottom: 8px;
@@ -17,7 +15,6 @@ label {
   font-weight: bold;
 }
 
-/* Estilo dos campos de entrada */
 input[type="number"],
 input[type="text"] {
   width: 100%;
@@ -36,7 +33,6 @@ input[type="text"]:focus {
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-/* Estilo do botão de envio */
 button {
   width: 100%;
   padding: 12px;
@@ -54,7 +50,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Estilo da caixa de resultado */
 #resultado {
   width: 60%;
   margin: 30px auto;
